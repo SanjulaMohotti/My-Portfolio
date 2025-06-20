@@ -58,7 +58,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'projects', 'contact'];
+      const sections = ['home', 'about', 'projects', 'tools', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -243,7 +243,7 @@ const [activeCategory, setActiveCategory] = useState('All');
             
             {/* Desktop Navigation */}
             <div className="hidden space-x-8 md:flex">
-              {['home', 'about', 'projects', 'contact'].map((item) => (
+              {['home', 'about', 'projects', 'tools','contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -272,7 +272,7 @@ const [activeCategory, setActiveCategory] = useState('All');
         {isMenuOpen && (
           <div className="border-t md:hidden bg-black/40 backdrop-blur-md border-white/10">
             <div className="px-4 pt-2 pb-3 space-y-1">
-              {['home', 'about', 'projects', 'contact'].map((item) => (
+              {['home', 'about', 'projects','tools', 'contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
@@ -553,7 +553,7 @@ const [activeCategory, setActiveCategory] = useState('All');
       <section id="tools" className="px-4 py-20">
         <div className="max-w-6xl mx-auto">
           <h2 className="mb-16 text-4xl font-bold text-center text-transparent md:text-5xl bg-gradient-to-r from-red-500 to-red-800 bg-clip-text">
-            Tools & Languages
+            Tools & Technics
           </h2>
           
           {/* Category Tabs */}
