@@ -165,7 +165,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Web App',
     description: 'A comprehensive MERN stack-based e-commerce solution tailored for the coir industry. Includes warehouse management, order and delivery tracking, employee and user administration, financial reporting, and machine-product management — all built to meet specific client requirements.',
     technologies: ['React.js', 'Tailwindcss', 'MongoDB', 'Express.js', 'Node.js'],
-    image: 'p7.png',
+    image: 'https://i.postimg.cc/SQv3MzMr/image.png',
     github: 'https://github.com/SanjulaMohotti/Ceylon-Coir-Company',
   },
   {
@@ -173,7 +173,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Mobile App',
     description: 'A feature-rich mobile app for personal finance tracking. Allows users to manage income and expenses, analyze category-wise spending, and set monthly budgets with real-time progress visualization using Kotlin and Android Studio.',
     technologies: ['Kotlin', 'Android Studio'],
-    image: 'p2.jpg',
+    image: 'https://i.postimg.cc/8P6nbSXq/image.png',
     github: 'https://github.com/SanjulaMohotti/My-Pocket',
   },
   {
@@ -181,7 +181,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'UI/UX Design',
     description: 'A visually captivating UI/UX design created in Figma for a modern beauty salon website. Focused on user-friendly appointment booking, service browsing, and aesthetic appeal for mobile and web platforms.',
     technologies: ['Figma', 'Kotlin', 'Android Studio'],
-    image: 'p3.png',
+    image: 'https://i.postimg.cc/rwdnpLxh/image.png',
     github: 'https://github.com/SanjulaMohotti/Beaura-Salon',
   },
   {
@@ -189,7 +189,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Web App',
     description: 'Frontend development of a fast-food delivery platform using React.js and TailwindCSS. Includes item browsing, cart management, order placement, and a responsive UI tailored for a seamless user experience.',
     technologies: ['React.js', 'Tailwindcss'],
-    image: 'p4.png',
+    image: 'https://i.postimg.cc/d3jDM1qL/image.png',
     github: 'https://github.com/SanjulaMohotti/Food-Ordering-System-KFC',
   },
   {
@@ -197,7 +197,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Web App',
     description: 'A Java-based hospital management system that supports doctor appointments, patient registration, and record handling. Designed to streamline the workflow for medical staff and improve patient experience.',
     technologies: ['Java'],
-    image: 'p5.png',
+    image: 'https://i.postimg.cc/7YnLsf6z/image.png',
     github: 'https://github.com/SanjulaMohotti/Online-E-Channeling-System',
   },
   {
@@ -205,7 +205,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Web App',
     description: 'A full-stack web-based management system for textile and garment industries. Includes inventory control, order tracking, user roles, and production workflows built using PHP, MySQL, and JavaScript.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
-    image: 'p1.png',
+    image: 'https://i.postimg.cc/SKr6GTh0/image.png',
     github: 'https://github.com/SanjulaMohotti/Textile-Garment-Management-System-',
   },
   {
@@ -213,7 +213,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Desktop App',
     description: 'A C# and SQL-based desktop application developed to streamline employee operations at Skill International. Features include employee registration, attendance tracking, payroll management, and performance monitoring. Built with a focus on usability and data integrity to improve HR processes and operational efficiency.',
     technologies: ['C#', 'SQL'],
-    image: 'p6.png',
+    image: 'https://i.postimg.cc/XqkrT0dN/image.png',
     github: 'https://github.com/SanjulaMohotti/Employee-Management-System',
   }
 ];
