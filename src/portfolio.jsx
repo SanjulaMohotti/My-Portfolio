@@ -162,7 +162,7 @@ const typedText = useTypedText(roles, 100, 1500);
   const projects = [
   {
     title: 'Sofa Cleaning Management System',
-    category: 'Web Application',
+    category: 'Web App',
     description: 'A client-based web application built with Next.js and TypeScript to manage sofa cleaning service operations, including bookings, service tracking, and customer management.',
     technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
     image: 'https://i.postimg.cc/tJk2KPyL/image.png',
