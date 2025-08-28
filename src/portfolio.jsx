@@ -160,15 +160,15 @@ const typedText = useTypedText(roles, 100, 1500);
 
   
   const projects = [
-    {
-    title: 'Sofa Cleaning Web Site',
-    category: 'Web App',
-    description: 'This project contains three mini frontend projects built using HTML, CSS, and JavaScript, designed to demonstrate responsive design, form validation, and DOM manipulation skills.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    image: 'https://i.postimg.cc/RZ3Hm9Gh/image.png',
-    github: 'https://github.com/SanjulaMohotti/Design-X-Frontend',
+  {
+    title: 'Sofa Cleaning Management System',
+    category: 'Web Application',
+    description: 'A client-based web application built with Next.js and TypeScript to manage sofa cleaning service operations, including bookings, service tracking, and customer management.',
+    technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
+    image: 'https://i.postimg.cc/tJk2KPyL/image.png',
+    github: 'https://github.com/SanjulaMohotti/Sofa-cleaning-Pristine',
   },
-    {
+  {
     title: 'Design-X-Frontend',
     category: 'UI/UX Design',
     description: 'This project contains three mini frontend projects built using HTML, CSS, and JavaScript, designed to demonstrate responsive design, form validation, and DOM manipulation skills.',
