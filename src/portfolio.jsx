@@ -10,7 +10,9 @@ const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
   const [skillsTab, setSkillsTab] = useState('technical');
   const [experienceTab, setExperienceTab] = useState('education');
-  const [toolsTab, setToolsTab] = useState('All')
+  const [toolsTab, setToolsTab] = useState('All');
+  const [comingSoonFilter, setComingSoonFilter] = useState('All'); // 'All', 'Coming Soon', 'Completed'
+ 
   
   const formRef = useRef();
 
@@ -167,6 +169,7 @@ const typedText = useTypedText(roles, 100, 1500);
     technologies: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
     image: 'https://i.postimg.cc/tJk2KPyL/image.png',
     github: 'https://github.com/SanjulaMohotti/Sofa-cleaning-Pristine',
+    status: "coming-soon",
   },
   {
     title: 'Design-X-Frontend',
@@ -240,6 +243,9 @@ const [activeCategory, setActiveCategory] = useState('All');
   const filteredProjects = projects.filter((project) => {
   if (activeCategory === 'All') return true;
   return project.category === activeCategory;
+
+  if (comingSoonFilter === 'Coming Soon') return project.comingSoon === true;
+  if (comingSoonFilter === 'Completed') return project.comingSoon !== true;
   })
 
 
@@ -508,6 +514,8 @@ const [activeCategory, setActiveCategory] = useState('All');
                 key={index}
                 className="overflow-hidden transition-all duration-300 border bg-white/5 backdrop-blur-md rounded-2xl border-white/10 hover:border-red-600/50 hover:transform hover:scale-105 group"
               >
+                
+
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
@@ -516,6 +524,7 @@ const [activeCategory, setActiveCategory] = useState('All');
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 </div>
+                
 
                 <div className="p-6">
                   <h3 className="mb-3 text-xl font-bold text-white">{project.title}</h3>
@@ -532,6 +541,12 @@ const [activeCategory, setActiveCategory] = useState('All');
                   ))}
                 </div>
 
+                {project.status === "coming-soon" && (
+                  <span className="absolute px-3 py-1 text-xs font-bold text-white uppercase bg-red-600 rounded-full shadow-lg top-3 right-3 animate-bounce">
+                   Coming Soon
+                  </span>
+                )}
+
               <div className="flex gap-4 mt-4">
                   {project.github && (
                     <a
@@ -543,10 +558,18 @@ const [activeCategory, setActiveCategory] = useState('All');
                       <Github className="mr-1" size={18} /> GitHub
                     </a>
                   )}
-                </div>
+                  
               </div>
+              
+             
+                
+              </div>
+              
+              
             </div>
+            
           ))}
+          
         </div>
 
         {/* View More Button */}
