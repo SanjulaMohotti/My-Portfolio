@@ -160,6 +160,22 @@ const typedText = useTypedText(roles, 100, 1500);
 
   
   const projects = [
+    {
+    title: 'Sofa Cleaning Web Site',
+    category: 'Web App',
+    description: 'This project contains three mini frontend projects built using HTML, CSS, and JavaScript, designed to demonstrate responsive design, form validation, and DOM manipulation skills.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    image: 'https://i.postimg.cc/RZ3Hm9Gh/image.png',
+    github: 'https://github.com/SanjulaMohotti/Design-X-Frontend',
+  },
+    {
+    title: 'Design-X-Frontend',
+    category: 'UI/UX Design',
+    description: 'This project contains three mini frontend projects built using HTML, CSS, and JavaScript, designed to demonstrate responsive design, form validation, and DOM manipulation skills.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    image: 'https://i.postimg.cc/RZ3Hm9Gh/image.png',
+    github: 'https://github.com/SanjulaMohotti/Design-X-Frontend',
+  },
   {
     title: 'Ceylon Coir E-commerce Platform',
     category: 'Web App',
@@ -197,8 +213,7 @@ const typedText = useTypedText(roles, 100, 1500);
     category: 'Web App',
     description: 'A Java-based hospital management system that supports doctor appointments, patient registration, and record handling. Designed to streamline the workflow for medical staff and improve patient experience.',
     technologies: ['Java'],
-    image: 'https://i.postimg.cc/7YnLsf6z/image.png',
-    github: 'https://github.com/SanjulaMohotti/Online-E-Channeling-System',
+    image: 'https://i.postimg.cc/7YnLsf6z/image.png'
   },
   {
     title: 'Textile & Garment Management System',
